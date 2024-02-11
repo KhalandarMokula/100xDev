@@ -14,7 +14,7 @@ function App() {
 
   return (
     <>
-    <div  className='flex'> 
+    <div> 
 
       {/* The following component should have flex-none */}
       {/* <div className="hidden  md:block h-full  transition delay-1500 ease-in-out bg-gray-800 flex flex-col justify-between"> 
@@ -23,7 +23,7 @@ function App() {
       
       <SideNavBar className="fixed"/> 
       {/* The following component should have flex-wrap */}
-      <div className='flex-none w-full' style={{paddingLeft:'224px'}}> 
+      <div className='flex-none w-full md:pl-[224px]' > 
         <TitleBar className="w-fill"/> 
         <div className='bg-gray-100'>
           <Overview ></Overview>
